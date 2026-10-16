@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Leqaa Waleed Elsayed Gebril - Data Engineering & Data Science Student at Menoufia University. Showcasing data analytics, pipeline development with Snowflake and dbt, and collaborative tech projects.">
+  <meta name="keywords" content="Leqaa Waleed, Data Engineering, Data Science, Data Analytics, Menoufia University, Snowflake, dbt, Excel Data Analysis, Egypt">
+  <meta name="author" content="Leqaa Waleed Elsayed Gebril">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Leqaa Waleed | Data Engineer & Data Science Student">
+  <meta property="og:description" content="Portfolio of Leqaa Waleed - Transforming raw data into structured insights. Data Engineering, Analytics, and AI projects.">
+  <meta property="og:type" content="website">
+  
+  <title>Leqaa Waleed | Data Engineer & Data Science Student</title>
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Accessible Skip to Content Link -->
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- Navigation Bar -->
+  <header class="header" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Leqaa Waleed Homepage">
+        <span class="logo-symbol">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+          </svg>
+        </span>
+        <span class="logo-text">Leqaa<span class="text-accent">.data</span></span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#objective" class="nav-link">Objective</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Controls: Theme Toggle & Mobile Menu Trigger -->
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Switch to light mode" title="Toggle Theme">
+          <span class="theme-icon light-icon" aria-hidden="true">
+            <!-- Sun Icon for Light Mode -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+          <span class="theme-icon dark-icon" aria-hidden="true">
+            <!-- Moon Icon for Dark Mode -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge hero-badge">
+            <span class="badge-dot"></span>
+            <span>DATA ENGINEERING • DATA SCIENCE</span>
+          </div>
+
+          <h1 class="hero-title">
+            Leqaa <span class="gradient-text">Waleed</span>
+          </h1>
+
+          <p class="hero-role">
+            Data Engineer &amp; Data Science Student
+          </p>
+
+          <p class="hero-description">
+            I'm a Data Science student at Menoufia University with a growing focus on Data Engineering, Data Science, and Data Analytics. I enjoy transforming raw data into meaningful insights and exploring how structured data workflows can support better decisions.
+          </p>
+
+          <div class="hero-meta">
+            <div class="location-badge">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Quesna, Menoufia, Egypt</span>
+            </div>
+
+            <div class="status-indicator">
+              <span class="pulse-dot"></span>
+              <span>Available for Internships &amp; Freelance Projects</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-quick-stats">
+            <div class="quick-stat">
+              <span class="stat-number">3.51</span>
+              <span class="stat-label">Cumulative GPA</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="quick-stat">
+              <span class="stat-number">120+</span>
+              <span class="stat-label">NTI Training Hours</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="quick-stat">
+              <span class="stat-number">8+</span>
+              <span class="stat-label">Projects &amp; Case Studies</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technical Pipeline & Data Stream Illustration -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="pipeline-card">
+            <div class="pipeline-header">
+              <div class="pipeline-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="pipeline-title">pipeline_execution.sql &bull; live</span>
+              <span class="pipeline-tag">Active Stream</span>
+            </div>
+
+            <!-- SVG Data Flow Simulation -->
+            <div class="pipeline-diagram">
+              <svg viewBox="0 0 540 380" fill="none" xmlns="http://www.w3.org/2000/svg" class="flow-svg">
+                <!-- Grid Background -->
+                <defs>
+                  <pattern id="grid-pattern" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="var(--border-color)" stroke-width="0.5" stroke-opacity="0.6"/>
+                  </pattern>
+                  <linearGradient id="flowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#2979FF" stop-opacity="0.8"/>
+                    <stop offset="50%" stop-color="#00C8FF" stop-opacity="1"/>
+                    <stop offset="100%" stop-color="#2979FF" stop-opacity="0.8"/>
+                  </linearGradient>
+                  <linearGradient id="pulseGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#2979FF" stop-opacity="0.25"/>
+                    <stop offset="100%" stop-color="#00C8FF" stop-opacity="0.05"/>
+                  </linearGradient>
+                </defs>
+
+                <rect width="540" height="380" fill="url(#grid-pattern)" rx="8" />
+
+                <!-- Connecting Flow Lines -->
+                <!-- Stage 1 to Stage 2 -->
+                <path d="M 140 100 C 180 100, 180 190, 220 190" stroke="var(--border-color)" stroke-width="2" stroke-dasharray="4 4" />
+                <path d="M 140 280 C 180 280, 180 190, 220 190" stroke="var(--border-color)" stroke-width="2" stroke-dasharray="4 4" />
+                
+                <!-- Stage 2 to Stage 3 -->
+                <path d="M 330 190 L 390 120" stroke="var(--border-color)" stroke-width="2" stroke-dasharray="4 4" />
+                <path d="M 330 190 L 390 260" stroke="var(--border-color)" stroke-width="2" stroke-dasharray="4 4" />
+
+                <!-- Active Animated Gradient Flow -->
+                <path d="M 140 100 C 180 100, 180 190, 220 190" stroke="url(#flowGradient)" stroke-width="2.5" class="stream-line line-1" />
+                <path d="M 140 280 C 180 280, 180 190, 220 190" stroke="url(#flowGradient)" stroke-width="2.5" class="stream-line line-2" />
+                <path d="M 330 190 L 390 120" stroke="url(#flowGradient)" stroke-width="2.5" class="stream-line line-3" />
+                <path d="M 330 190 L 390 260" stroke="url(#flowGradient)" stroke-width="2.5" class="stream-line line-4" />
+
+                <!-- Ingestion Node 1: CSV / Raw Sources -->
+                <g class="pipeline-node" transform="translate(30, 65)">
+                  <rect width="110" height="70" rx="8" fill="var(--bg-secondary)" stroke="var(--border-color)" stroke-width="1.5" />
+                  <circle cx="24" cy="25" r="10" fill="var(--accent-glow)" />
+                  <path d="M 21 21 L 27 21 M 21 25 L 27 25 M 21 29 L 25 29" stroke="#00C8FF" stroke-width="1.5" stroke-linecap="round" />
+                  <text x="42" y="27" fill="var(--text-primary)" font-size="11" font-weight="600" font-family="'Inter', sans-serif">Raw Ingest</text>
+                  <text x="18" y="52" fill="var(--text-secondary)" font-size="10" font-family="'JetBrains Mono', monospace">1,000+ Records</text>
+                </g>
+
+                <!-- Ingestion Node 2: Tabular / Excel -->
+                <g class="pipeline-node" transform="translate(30, 245)">
+                  <rect width="110" height="70" rx="8" fill="var(--bg-secondary)" stroke="var(--border-color)" stroke-width="1.5" />
+                  <circle cx="24" cy="25" r="10" fill="var(--accent-glow)" />
+                  <rect x="19" y="20" width="10" height="10" rx="1.5" stroke="#2979FF" stroke-width="1.5" fill="none" />
+                  <line x1="24" y1="20" x2="24" y2="30" stroke="#2979FF" stroke-width="1" />
+                  <line x1="19" y1="25" x2="29" y2="25" stroke="#2979FF" stroke-width="1" />
+                  <text x="42" y="27" fill="var(--text-primary)" font-size="11" font-weight="600" font-family="'Inter', sans-serif">Excel Sources</text>
+                  <text x="18" y="52" fill="var(--text-secondary)" font-size="10" font-family="'JetBrains Mono', monospace">Cleaned &amp; Prepped</text>
+                </g>
+
+                <!-- Processing Node: Snowflake & dbt Stage -->
+                <g class="pipeline-node center-node" transform="translate(210, 145)">
+                  <rect width="125" height="90" rx="10" fill="var(--bg-card)" stroke="#2979FF" stroke-width="1.8" filter="drop-shadow(0 0 16px rgba(41, 121, 255, 0.25))" />
+                  <rect x="22" y="16" width="80" height="20" rx="4" fill="var(--accent-glow)" />
+                  <text x="28" y="30" fill="#00C8FF" font-size="10" font-weight="700" font-family="'JetBrains Mono', monospace">SNOWFLAKE + dbt</text>
+                  <text x="18" y="56" fill="var(--text-primary)" font-size="12" font-weight="600" font-family="'Inter', sans-serif">Transformation</text>
+                  <text x="18" y="74" fill="var(--accent-secondary)" font-size="10" font-family="'JetBrains Mono', monospace">&bull; PUBLIC schema</text>
+                </g>
+
+                <!-- Output Node 1: Analytics & KPIs -->
+                <g class="pipeline-node" transform="translate(390, 85)">
+                  <rect width="120" height="70" rx="8" fill="var(--bg-secondary)" stroke="var(--border-color)" stroke-width="1.5" />
+                  <circle cx="24" cy="25" r="10" fill="var(--accent-glow)" />
+                  <path d="M 19 28 L 22 23 L 26 26 L 29 20" stroke="#00C8FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <text x="42" y="27" fill="var(--text-primary)" font-size="11" font-weight="600" font-family="'Inter', sans-serif">BI &amp; Analytics</text>
+                  <text x="18" y="52" fill="var(--text-secondary)" font-size="10" font-family="'JetBrains Mono', monospace">Visual Insights</text>
+                </g>
+
+                <!-- Output Node 2: Decision Modeling -->
+                <g class="pipeline-node" transform="translate(390, 225)">
+                  <rect width="120" height="70" rx="8" fill="var(--bg-secondary)" stroke="var(--border-color)" stroke-width="1.5" />
+                  <circle cx="24" cy="25" r="10" fill="var(--accent-glow)" />
+                  <circle cx="24" cy="25" r="4" stroke="#2979FF" stroke-width="1.5" />
+                  <text x="42" y="27" fill="var(--text-primary)" font-size="11" font-weight="600" font-family="'Inter', sans-serif">Decision Models</text>
+                  <text x="18" y="52" fill="var(--text-secondary)" font-size="10" font-family="'JetBrains Mono', monospace">AI &amp; Strategy</text>
+                </g>
+              </svg>
+            </div>
+
+            <!-- Mini Terminal Output -->
+            <div class="pipeline-terminal">
+              <span class="terminal-prompt">$</span>
+              <span class="terminal-code">dbt run --select staging.sales_data</span>
+              <span class="terminal-badge">PASS [1,000 rows]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">BACKGROUND &amp; ASPIRATIONS</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Bridging academic foundations in Artificial Intelligence with hands-on data workflow engineering.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative">
+            <div class="narrative-card">
+              <p class="about-lead">
+                I'm pursuing a B.Sc. in Artificial Intelligence, majoring in Data Science, at Menoufia University, where I have maintained a GPA of 3.51. My interests include data analytics, data visualization, data workflows, and the technologies that turn raw information into useful business insights.
+              </p>
+              <p>
+                Through technical training, collaborative projects, and extracurricular activities, I've explored the intersection of data, AI, and business problem-solving. I enjoy learning by building, collaborating with teams, and developing practical solutions.
+              </p>
+              <p>
+                My current goal is to strengthen my foundations in Data Engineering and Data Science while creating projects that demonstrate analytical thinking, technical growth, and real-world relevance.
+              </p>
+
+              <div class="about-pillars">
+                <div class="pillar-item">
+                  <div class="pillar-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                      <polyline points="2 17 12 22 22 17"></polyline>
+                      <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                  </div>
+                  <div class="pillar-content">
+                    <h4>Structured Thinking</h4>
+                    <p>Methodical approach to data modeling, transformation integrity, and quality checks.</p>
+                  </div>
+                </div>
+
+                <div class="pillar-item">
+                  <div class="pillar-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 14 14"></polyline>
+                    </svg>
+                  </div>
+                  <div class="pillar-content">
+                    <h4>Continuous Learning</h4>
+                    <p>Actively learning modern tools like Snowflake and dbt alongside intensive training.</p>
+                  </div>
+                </div>
+
+                <div class="pillar-item">
+                  <div class="pillar-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                  </div>
+                  <div class="pillar-content">
+                    <h4>Collaborative Execution</h4>
+                    <p>Demonstrated team leadership in hackathons, community events, and tech competitions.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academic & Profile Information Cards -->
+          <div class="about-cards-col">
+            <div class="info-card featured-academic">
+              <div class="info-icon academic-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Institution</span>
+                <h3 class="info-value">Menoufia University</h3>
+                <p class="info-desc">Faculty of Artificial Intelligence</p>
+              </div>
+            </div>
+
+            <div class="info-cards-grid">
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                  </svg>
+                </div>
+                <div class="info-details">
+                  <span class="info-label">Degree</span>
+                  <h4 class="info-value">B.Sc. in Artificial Intelligence</h4>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                  </svg>
+                </div>
+                <div class="info-details">
+                  <span class="info-label">Major</span>
+                  <h4 class="info-value">Data Science</h4>
+                </div>
+              </div>
+
+              <div class="info-card highlight-metric">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                </div>
+                <div class="info-details">
+                  <span class="info-label">Cumulative GPA</span>
+                  <h4 class="info-value text-accent">3.51 / 4.0</h4>
+                  <span class="info-sub">High Distinction</span>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                </div>
+                <div class="info-details">
+                  <span class="info-label">Expected Graduation</span>
+                  <h4 class="info-value">2029</h4>
+                </div>
+              </div>
+
+              <div class="info-card full-width-card">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="info-details">
+                  <span class="info-label">Location</span>
+                  <h4 class="info-value">Menoufia, Egypt (Quesna)</h4>
+                  <p class="info-desc">Open to on-site in Egypt and remote global opportunities</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">TECHNICAL &amp; PROFESSIONAL TOOLSET</span>
+          <h2 class="section-title">Core <span class="gradient-text">Competencies</span></h2>
+          <p class="section-subtitle">Verified skills developed through academic coursework, intensive training institutes, and applied projects.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Data & Analytics -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon data-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Data &amp; Analytics</h3>
+                <span class="category-caption">Analysis, modeling &amp; visualization</span>
+              </div>
+            </div>
+
+            <ul class="skill-tags-list">
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Data Analysis</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Data Visualization</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Quantitative Analysis</span>
+              </li>
+              <li class="skill-tag highlight-tag">
+                <span class="tag-bullet"></span>
+                <span>Microsoft Excel</span>
+              </li>
+              <li class="skill-tag highlight-tag">
+                <span class="tag-bullet"></span>
+                <span>Power BI</span>
+              </li>
+            </ul>
+
+            <div class="category-note">
+              <span>Focus: Tabular data modeling, formula engineering, dynamic dashboards &amp; quantitative rigor.</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Programming & AI -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon code-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Programming &amp; AI</h3>
+                <span class="category-caption">Logic, machine intelligence &amp; LLMs</span>
+              </div>
+            </div>
+
+            <ul class="skill-tags-list">
+              <li class="skill-tag highlight-tag">
+                <span class="tag-bullet"></span>
+                <span>C++ Programming</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Machine Learning Concepts</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>AI Applications</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Prompt Engineering</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Chatbot Integration</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Generative AI (ChatGPT, Gemini, Copilot)</span>
+              </li>
+            </ul>
+
+            <div class="category-note">
+              <span>Focus: Algorithmic foundations, AI tool integration, and practical ML workflow principles.</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Business & Project Tools -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon business-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Business &amp; Project Tools</h3>
+                <span class="category-caption">Planning, documentation &amp; execution</span>
+              </div>
+            </div>
+
+            <ul class="skill-tags-list">
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Project Management</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Business Planning</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>B2B / B2C Business Models</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Microsoft Word</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Microsoft PowerPoint</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Canva</span>
+              </li>
+            </ul>
+
+            <div class="category-note">
+              <span>Focus: Translating complex technical analyses into executive presentations and roadmaps.</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Professional Skills -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon soft-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+                  <line x1="16" y1="8" x2="2" y2="22"></line>
+                  <line x1="17.5" y1="15" x2="9" y2="15"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Professional Skills</h3>
+                <span class="category-caption">Problem-solving &amp; collaborative strengths</span>
+              </div>
+            </div>
+
+            <ul class="skill-tags-list">
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Critical Thinking</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Problem Solving</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Attention to Detail</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Teamwork</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Communication</span>
+              </li>
+              <li class="skill-tag highlight-tag">
+                <span class="tag-bullet"></span>
+                <span>Self-Learning</span>
+              </li>
+            </ul>
+
+            <div class="category-note">
+              <span>Focus: Adaptability to new tech stacks and cross-functional project collaboration.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-disclaimer">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <span>All competencies listed reflect verified academic foundations and ongoing project work. Technologies such as Snowflake and dbt are actively utilized in the ongoing data pipeline project below.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">FEATURED WORK &amp; CASE STUDIES</span>
+          <h2 class="section-title">Projects &amp; <span class="gradient-text">Initiatives</span></h2>
+          <p class="section-subtitle">Real-world data analytics projects with verified portfolios, alongside in-progress data engineering pipelines and competitive team platforms.</p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="projects-filter-bar" role="tablist" aria-label="Filter projects by category">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
+            All Projects <span class="filter-count">(8)</span>
+          </button>
+          <button class="filter-btn" data-filter="engineering" role="tab" aria-selected="false">
+            Data Engineering <span class="filter-count">(1)</span>
+          </button>
+          <button class="filter-btn" data-filter="analytics" role="tab" aria-selected="false">
+            Data Analytics &amp; Prep <span class="filter-count">(3)</span>
+          </button>
+          <button class="filter-btn" data-filter="collaborative" role="tab" aria-selected="false">
+            Collaborative &amp; AI Innovation <span class="filter-count">(4)</span>
+          </button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <!-- PROMINENT DATA ENGINEERING PROJECT: Snowflake & dbt (Project 4) -->
+          <article class="project-card featured-engineering-card" data-category="engineering">
+            <div class="project-banner">
+              <div class="project-banner-header">
+                <span class="category-pill engineering-pill">Data Engineering</span>
+                <span class="status-pill in-progress">
+                  <span class="pulsing-circle"></span>
+                  In Progress
+                </span>
+              </div>
+
+              <!-- Data Pipeline Technical Architecture Illustration -->
+              <div class="project-tech-diagram" aria-label="Snowflake and dbt Pipeline Architecture Diagram">
+                <svg viewBox="0 0 500 160" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+                  <!-- Flow path -->
+                  <path d="M 100 80 L 220 80 M 280 80 L 400 80" stroke="var(--border-color)" stroke-width="2" stroke-dasharray="4 4" />
+                  <path d="M 100 80 L 220 80" stroke="#2979FF" stroke-width="2" class="stream-line" />
+                  <path d="M 280 80 L 400 80" stroke="#00C8FF" stroke-width="2" class="stream-line" />
+
+                  <!-- Stage 1: CSV Dataset -->
+                  <g transform="translate(20, 40)">
+                    <rect width="80" height="80" rx="8" fill="var(--bg-secondary)" stroke="var(--border-color)" stroke-width="1.5" />
+                    <text x="40" y="38" text-anchor="middle" fill="#00C8FF" font-size="11" font-weight="700" font-family="'JetBrains Mono', monospace">CSV</text>
+                    <text x="40" y="54" text-anchor="middle" fill="var(--text-secondary)" font-size="9" font-family="'Inter', sans-serif">1,000 Rows</text>
+                    <text x="40" y="68" text-anchor="middle" fill="var(--text-muted)" font-size="8" font-family="'Inter', sans-serif">Raw Sales</text>
+                  </g>
+
+                  <!-- Arrow 1 -->
+                  <polygon points="170,76 180,80 170,84" fill="#2979FF" />
+
+                  <!-- Stage 2: Snowflake Public Schema -->
+                  <g transform="translate(190, 30)">
+                    <rect width="100" height="100" rx="10" fill="var(--bg-card)" stroke="#2979FF" stroke-width="1.8" />
+                    <circle cx="50" cy="30" r="12" fill="var(--accent-glow)" />
+                    <path d="M 45 30 L 55 30 M 50 25 L 50 35 M 47 27 L 53 33 M 47 33 L 53 27" stroke="#00C8FF" stroke-width="1.5" stroke-linecap="round" />
+                    <text x="50" y="58" text-anchor="middle" fill="var(--text-primary)" font-size="11" font-weight="700" font-family="'Inter', sans-serif">Snowflake</text>
+                    <text x="50" y="73" text-anchor="middle" fill="#2979FF" font-size="9" font-family="'JetBrains Mono', monospace">PUBLIC Schema</text>
+                    <text x="50" y="87" text-anchor="middle" fill="var(--text-muted)" font-size="8" font-family="'Inter', sans-serif">Source Loaded</text>
+                  </g>
+
+                  <!-- Arrow 2 -->
+                  <polygon points="340,76 350,80 340,84" fill="#00C8FF" />
+
+                  <!-- Stage 3: dbt Transformation Workflow -->
+                  <g transform="translate(360, 40)">
+                    <rect width="110" height="80" rx="8" fill="var(--bg-secondary)" stroke="#00C8FF" stroke-width="1.5" stroke-dasharray="3 3" />
+                    <text x="55" y="36" text-anchor="middle" fill="#00C8FF" font-size="12" font-weight="700" font-family="'JetBrains Mono', monospace">dbt Project</text>
+                    <text x="55" y="52" text-anchor="middle" fill="var(--text-secondary)" font-size="9" font-family="'Inter', sans-serif">Transformation</text>
+                    <text x="55" y="68" text-anchor="middle" fill="#F59E0B" font-size="9" font-weight="600" font-family="'JetBrains Mono', monospace">[In Progress]</text>
+                  </g>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Sales Data Pipeline — Snowflake &amp; dbt</h3>
+              
+              <p class="project-description">
+                Building a data pipeline using Snowflake and dbt, starting with loading a sales dataset into Snowflake and developing a structured transformation workflow. This ongoing project is helping me explore data modeling, data transformation, and analytics engineering concepts.
+              </p>
+
+              <!-- Confirmed Progress Breakdown -->
+              <div class="pipeline-progress-box">
+                <span class="progress-box-title">Confirmed Project Milestones:</span>
+                <ul class="progress-checklist">
+                  <li class="checked">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Loaded 1,000-row sales dataset into Snowflake data warehouse</span>
+                  </li>
+                  <li class="checked">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Created and validated source tables inside Snowflake PUBLIC schema</span>
+                  </li>
+                  <li class="active-progress">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <span>Developing dbt models for modular SQL transformation (Active Development)</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Snowflake</span>
+                <span class="tech-tag in-progress-tag">dbt (In Progress)</span>
+                <span class="tech-tag">Data Modeling</span>
+                <span class="tech-tag">ETL Workflow</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="repo-status-notice">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                  Repository coming soon upon completion of dbt models
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 1: Sales Data Analysis using Excel -->
+          <article class="project-card" data-category="analytics">
+            <div class="project-banner">
+              <div class="project-banner-header">
+                <span class="category-pill analytics-pill">Data Analytics</span>
+                <span class="status-pill verified">Verified Work</span>
+              </div>
+              <div class="project-illustration" aria-hidden="true">
+                <!-- Abstract Analytics Visual -->
+                <svg viewBox="0 0 300 120" fill="none" class="analytic-svg">
+                  <!-- Bar chart simulation -->
+                  <rect x="25" y="70" width="22" height="40" rx="3" fill="#2979FF" fill-opacity="0.6"/>
+                  <rect x="60" y="45" width="22" height="65" rx="3" fill="#2979FF" fill-opacity="0.8"/>
+                  <rect x="95" y="30" width="22" height="80" rx="3" fill="#00C8FF"/>
+                  <rect x="130" y="55" width="22" height="55" rx="3" fill="#2979FF" fill-opacity="0.7"/>
+                  <rect x="165" y="20" width="22" height="90" rx="3" fill="#2979FF"/>
+                  <rect x="200" y="40" width="22" height="70" rx="3" fill="#00C8FF" fill-opacity="0.9"/>
+                  <!-- Trend line -->
+                  <path d="M 36 65 Q 105 20 176 15 T 255 35" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.85"/>
+                  <line x1="15" y1="110" x2="285" y2="110" stroke="var(--border-color)" stroke-width="1.5"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Sales Data Analysis using Excel</h3>
+              
+              <p class="project-description">
+                Analyzed sales data using Microsoft Excel to explore revenue patterns, compare product performance, and present business insights through structured analysis and visualizations.
+              </p>
+
+              <div class="project-highlights">
+                <span class="highlight-item">&bull; Revenue trend discovery</span>
+                <span class="highlight-item">&bull; Product matrix comparisons</span>
+                <span class="highlight-item">&bull; Executive chart design</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Microsoft Excel</span>
+                <span class="tech-tag">Data Visualization</span>
+                <span class="tech-tag">Revenue Analysis</span>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://nafezly.com/portfolio/248820-Sales-Data-Analysis-using-Excel" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="View Sales Data Analysis project on Nafezly">
+                  <span>View Project on Nafezly</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Sales Data Analysis using Microsoft Excel -->
+          <article class="project-card" data-category="analytics">
+            <div class="project-banner">
+              <div class="project-banner-header">
+                <span class="category-pill analytics-pill">Data Analytics</span>
+                <span class="status-pill verified">Verified Work</span>
+              </div>
+              <div class="project-illustration" aria-hidden="true">
+                <!-- Abstract Customer & Metric Visual -->
+                <svg viewBox="0 0 300 120" fill="none" class="analytic-svg">
+                  <!-- KPI Cards & Donut Chart -->
+                  <rect x="25" y="25" width="115" height="75" rx="6" fill="var(--bg-card)" stroke="var(--border-color)" stroke-width="1.2"/>
+                  <text x="35" y="48" fill="var(--text-secondary)" font-size="9" font-family="'Inter', sans-serif">CUSTOMER SEGMENTS</text>
+                  <text x="35" y="70" fill="#00C8FF" font-size="16" font-weight="700" font-family="'JetBrains Mono', monospace">KPI Summary</text>
+                  <text x="35" y="88" fill="var(--text-muted)" font-size="8" font-family="'Inter', sans-serif">Regional Performance</text>
+
+                  <circle cx="215" cy="62" r="34" stroke="var(--border-color)" stroke-width="8" fill="none"/>
+                  <circle cx="215" cy="62" r="34" stroke="#2979FF" stroke-width="8" stroke-dasharray="140 220" fill="none"/>
+                  <circle cx="215" cy="62" r="34" stroke="#00C8FF" stroke-width="8" stroke-dasharray="60 220" stroke-dashoffset="-140" fill="none"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Sales Data Analysis using Microsoft Excel</h3>
+              
+              <p class="project-description">
+                Explored sales and customer data using Microsoft Excel, organizing information and presenting key findings through charts and summary metrics.
+              </p>
+
+              <div class="project-highlights">
+                <span class="highlight-item">&bull; Customer behavior breakdown</span>
+                <span class="highlight-item">&bull; Key performance metrics</span>
+                <span class="highlight-item">&bull; Summary dashboard views</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Microsoft Excel</span>
+                <span class="tech-tag">Customer Analytics</span>
+                <span class="tech-tag">Summary Metrics</span>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://nafezly.com/portfolio/248819-Sales-Data-Analysis-using-Microsoft-Excel" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="View Sales & Customer Data Analysis on Nafezly">
+                  <span>View Project on Nafezly</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Data Cleaning in Excel -->
+          <article class="project-card" data-category="analytics">
+            <div class="project-banner">
+              <div class="project-banner-header">
+                <span class="category-pill prep-pill">Data Preparation</span>
+                <span class="status-pill verified">Verified Work</span>
+              </div>
+              <div class="project-illustration" aria-hidden="true">
+                <!-- Abstract Data Cleaning Visual -->
+                <svg viewBox="0 0 300 120" fill="none" class="analytic-svg">
+                  <!-- Dirty data to clean data transform -->
+                  <g transform="translate(25, 25)">
+                    <rect width="90" height="75" rx="5" fill="var(--bg-card)" stroke="#EF4444" stroke-width="1.2" stroke-opacity="0.6"/>
+                    <line x1="10" y1="20" x2="80" y2="20" stroke="#EF4444" stroke-width="2" stroke-linecap="round" stroke-opacity="0.7"/>
+                    <line x1="10" y1="36" x2="50" y2="36" stroke="var(--border-color)" stroke-width="2"/>
+                    <line x1="10" y1="52" x2="70" y2="52" stroke="#EF4444" stroke-width="2" stroke-dasharray="3 3"/>
+                    <text x="45" y="70" text-anchor="middle" fill="#EF4444" font-size="8" font-family="'JetBrains Mono', monospace">Raw / Uncleaned</text>
+                  </g>
+
+                  <path d="M 130 62 L 165 62" stroke="#2979FF" stroke-width="2" stroke-dasharray="3 3"/>
+                  <polygon points="165,58 175,62 165,66" fill="#2979FF"/>
+
+                  <g transform="translate(185, 25)">
+                    <rect width="90" height="75" rx="5" fill="var(--bg-card)" stroke="#10B981" stroke-width="1.2"/>
+                    <line x1="10" y1="20" x2="80" y2="20" stroke="#10B981" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="10" y1="36" x2="80" y2="36" stroke="#10B981" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="10" y1="52" x2="80" y2="52" stroke="#10B981" stroke-width="2" stroke-linecap="round"/>
+                    <text x="45" y="70" text-anchor="middle" fill="#10B981" font-size="8" font-family="'JetBrains Mono', monospace">Cleaned &amp; Valid</text>
+                  </g>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Data Cleaning in Excel</h3>
+              
+              <p class="project-description">
+                Worked on preparing and organizing tabular data in Excel, focusing on data quality, consistency, and a structure suitable for further analysis.
+              </p>
+
+              <div class="project-highlights">
+                <span class="highlight-item">&bull; Missing value handling</span>
+                <span class="highlight-item">&bull; Text standardization &amp; trims</span>
+                <span class="highlight-item">&bull; Structured table schemas</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Data Quality</span>
+                <span class="tech-tag">Microsoft Excel</span>
+                <span class="tech-tag">Data Standardization</span>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://nafezly.com/portfolio/248816-Data-Cleaning-in-Excel" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="View Data Cleaning in Excel on Nafezly">
+                  <span>View Project on Nafezly</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 5: 1Nova Platform — Business Planning AI -->
+          <article class="project-card" data-category="collaborative">
+            <div class="project-banner">
+              <div class="project-banner-header">
+                <span class="category-pill ai-pill">AI &amp; Business</span>
+                <span class="award-pill">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  1st Place Winner
+                </span>
+              </div>
+              <div class="project-illustration" aria-hidden="true">
+                <svg viewBox="0 0 300 120" fill="none" class="analytic-svg">
+                  <!-- AI Chatbot interface representation -->
+                  <rect x="35" y="20" width="230" height="85" rx="8" fill="var(--bg-card)" stroke="var(--border-color)" stroke-width="1.2"/>
+                  <rect x="50" y="32" width="130" height="18" rx="4" fill="var(--accent-glow)"/>
+                  <circle cx="62" cy="41" r="5" fill="#2979FF"/>
+                  <text x="75" y="45" fill="var(--text-primary)" font-size="9" font-family="'Inter', sans-serif">AI Business Strategy Engine</text>
+                  <rect x="110" y="60" width="140" height="20" rx="4" fill="var(--bg-secondary)"/>
+                  <text x="120" y="74" fill="#00C8FF" font-size="8.5" font-family="'JetBrains Mono', monospace">1st / 50+ Teams &bull; Ibdaa 14</text>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">1Nova Platform — Business Planning AI</h3>
+              
+              <p class="project-description">
+                Collaborated on a business-planning platform featuring chatbot integration to support business strategy development. The project secured first place among 50+ competing teams in Menoufia Governorate at the Ibdaa Season 14 competition.
+              </p>
+
+              <div class="achievement-callout">
+                <span class="achievement-icon">&#127942;</span>
+                <span class="achievement-text"><strong>1st Place Award:</strong> Selected #1 out of 50+ teams across Menoufia Governorate (Ibdaa Season 14).</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Chatbot Integration</span>
+                <span class="tech-tag">Business Strategy AI</span>
+                <span class="tech-tag">Product Modeling</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-note-badge">Collaborative Competition Project</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 6: BrewPrint — Hult Prize 2026 -->
+          <article class="project-card" data-category="collaborative">
+            <div class="project-banner">
+              <div class="project-banner-header">
+                <span class="category-pill eco-pill">Sustainability &amp; Innovation</span>
+                <span class="award-pill">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  Top 5 Finalist
+                </span>
+              </div>
+              <div class="project-illustration" aria-hidden="true">
+                <svg viewBox="0 0 300 120" fill="none" class="analytic-svg">
+                  <!-- Circular sustainability loop -->
+                  <g transform="translate(60, 20)">
+                    <rect width="180" height="80" rx="8" fill="var(--bg-card)" stroke="var(--border-color)" stroke-width="1.2"/>
+                    <circle cx="50" cy="40" r="18" fill="rgba(16, 185, 129, 0.15)"/>
+                    <path d="M 45 42 C 45 35 55 35 55 42 C 55 48 45 52 45 52" stroke="#10B981" stroke-width="1.5"/>
+                    <text x="80" y="38" fill="var(--text-primary)" font-size="10" font-weight="600" font-family="'Inter', sans-serif">Tea Waste &rarr; Natural Ink</text>
+                    <text x="80" y="55" fill="#10B981" font-size="8.5" font-family="'JetBrains Mono', monospace">Hult Prize National Finals</text>
+                  </g>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">BrewPrint — Hult Prize 2026</h3>
+              
+              <p class="project-description">
+                Co-developed a sustainability-focused concept that transforms tea waste into natural ink. The team ranked among the top five teams out of 100+ participants at Menoufia University and qualified for the Hult Egypt national finals.
+              </p>
+
+              <div class="achievement-callout">
+                <span class="achievement-icon">&#127793;</span>
+                <span class="achievement-text"><strong>National Finalist:</strong> Top 5 of 100+ participants at Menoufia University &amp; qualified for Hult Egypt National Finals.</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Circular Economy</span>
+                <span class="tech-tag">Sustainable Innovation</span>
+                <span class="tech-tag">Concept Modeling</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-note-badge">Hult Prize 2026 Candidate Concept</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 7: Warsha Link -->
+          <article class="project-card" data-category="collaborative">
+            <div class="project-banner">
+              <div class="project-banner-header">
+                <span class="category-pill platform-pill">B2B/B2C Digital Platform</span>
+                <span class="status-pill concept">Concept Design</span>
+              </div>
+              <div class="project-illustration" aria-hidden="true">
+                <svg viewBox="0 0 300 120" fill="none" class="analytic-svg">
+                  <!-- Bidding network nodes -->
+                  <circle cx="70" cy="60" r="16" fill="var(--bg-card)" stroke="#2979FF" stroke-width="1.5"/>
+                  <text x="70" y="63" text-anchor="middle" fill="#00C8FF" font-size="9" font-family="'JetBrains Mono', monospace">Workshop</text>
+
+                  <line x1="90" y1="60" x2="140" y2="60" stroke="var(--border-color)" stroke-width="2" stroke-dasharray="3 3"/>
+
+                  <circle cx="155" cy="60" r="14" fill="var(--accent-glow)" stroke="#00C8FF" stroke-width="1.5"/>
+                  <text x="155" y="63" text-anchor="middle" fill="var(--text-primary)" font-size="8" font-family="'JetBrains Mono', monospace">Bid</text>
+
+                  <line x1="170" y1="60" x2="215" y2="60" stroke="var(--border-color)" stroke-width="2" stroke-dasharray="3 3"/>
+
+                  <circle cx="230" cy="60" r="16" fill="var(--bg-card)" stroke="#2979FF" stroke-width="1.5"/>
+                  <text x="230" y="63" text-anchor="middle" fill="#00C8FF" font-size="9" font-family="'JetBrains Mono', monospace">Consumer</text>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Warsha Link</h3>
+              
+              <p class="project-description">
+                Worked on a platform concept connecting manufacturing workshops with consumers through a prioritized bidding system for leftover materials.
+              </p>
+
+              <div class="project-highlights">
+                <span class="highlight-item">&bull; Scrap material matching model</span>
+                <span class="highlight-item">&bull; Prioritized dynamic bidding flow</span>
+                <span class="highlight-item">&bull; Circular industrial resource utility</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">B2B/B2C Platform</span>
+                <span class="tech-tag">Bidding System</span>
+                <span class="tech-tag">Process Architecture</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-note-badge">Industrial Concept Model</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 8: ScoreIn -->
+          <article class="project-card" data-category="collaborative">
+            <div class="project-banner">
+              <div class="project-banner-header">
+                <span class="category-pill sports-pill">Sports Technology</span>
+                <span class="status-pill concept">Concept Design</span>
+              </div>
+              <div class="project-illustration" aria-hidden="true">
+                <svg viewBox="0 0 300 120" fill="none" class="analytic-svg">
+                  <!-- Video & Talent Scouting representation -->
+                  <rect x="50" y="25" width="200" height="75" rx="8" fill="var(--bg-card)" stroke="var(--border-color)" stroke-width="1.2"/>
+                  <polygon points="100,50 100,74 120,62" fill="#2979FF"/>
+                  <text x="135" y="55" fill="var(--text-primary)" font-size="10" font-weight="600" font-family="'Inter', sans-serif">Talent Showcase</text>
+                  <text x="135" y="70" fill="var(--text-secondary)" font-size="8.5" font-family="'JetBrains Mono', monospace">Athlete &bull; Scout Network</text>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">ScoreIn</h3>
+              
+              <p class="project-description">
+                Worked on a platform concept designed to connect amateur athletes with professional sports scouts through video-sharing and showcasing capabilities.
+              </p>
+
+              <div class="project-highlights">
+                <span class="highlight-item">&bull; Athlete talent profile framework</span>
+                <span class="highlight-item">&bull; Scout indexing &amp; discovery</span>
+                <span class="highlight-item">&bull; Video showcase mechanics</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Sports Tech</span>
+                <span class="tech-tag">Video Showcase</span>
+                <span class="tech-tag">Talent Discovery</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-note-badge">Sports Discovery Concept</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & EXPERIENCE SECTION -->
+    <section id="experience" class="section timeline-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">CHRONOLOGICAL PATHWAY</span>
+          <h2 class="section-title">Education &amp; <span class="gradient-text">Experience</span></h2>
+          <p class="section-subtitle">A balanced trajectory combining rigorous university coursework, certified technical institutes, and leadership in student organizations.</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Column 1: Education & Technical Training -->
+          <div class="timeline-column">
+            <h3 class="timeline-group-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+              <span>Education &amp; Technical Training</span>
+            </h3>
+
+            <div class="timeline-track">
+              <!-- Item 1: University -->
+              <div class="timeline-item">
+                <div class="timeline-marker">
+                  <div class="marker-dot active-dot"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-badge-row">
+                    <span class="timeline-badge primary">Degree Program</span>
+                    <span class="timeline-date">2024 &ndash; 2029 (Expected)</span>
+                  </div>
+                  <h4 class="timeline-role">B.Sc. in Artificial Intelligence &mdash; Major in Data Science</h4>
+                  <h5 class="timeline-org">Menoufia University</h5>
+                  <p class="timeline-desc">
+                    Maintaining a cumulative GPA of 3.51 with coursework focused on data science, mathematics, machine learning concepts, algorithms, and computational problem-solving.
+                  </p>
+                  <div class="timeline-meta-tags">
+                    <span>GPA: 3.51</span>
+                    <span>Quesna / Menoufia</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 2: NTI -->
+              <div class="timeline-item">
+                <div class="timeline-marker">
+                  <div class="marker-dot active-dot"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-badge-row">
+                    <span class="timeline-badge warning">Current Training</span>
+                    <span class="timeline-date">Ongoing</span>
+                  </div>
+                  <h4 class="timeline-role">Technical Trainee</h4>
+                  <h5 class="timeline-org">National Telecommunications Institute (NTI)</h5>
+                  <p class="timeline-desc">
+                    Participating in technical training focused on data analytics, quantitative analysis, and structured methodologies. Part of an intensive 120+ hours technical training program.
+                  </p>
+                  <div class="timeline-meta-tags">
+                    <span>120+ Hours Curriculum</span>
+                    <span>Quantitative Analytics</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 3: MCIT -->
+              <div class="timeline-item">
+                <div class="timeline-marker">
+                  <div class="marker-dot"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-badge-row">
+                    <span class="timeline-badge success">Completed</span>
+                    <span class="timeline-date">December 2025</span>
+                  </div>
+                  <h4 class="timeline-role">AI Tracks Trainee</h4>
+                  <h5 class="timeline-org">Ministry of Communications and Information Technology (MCIT)</h5>
+                  <p class="timeline-desc">
+                    Completed 50+ hours of AI-focused training, exploring practical applications in financial analysis, marketing strategy, and business development.
+                  </p>
+                  <div class="timeline-meta-tags">
+                    <span>50+ Hours Completed</span>
+                    <span>Applied AI &amp; Finance</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Extracurricular Leadership & Community -->
+          <div class="timeline-column">
+            <h3 class="timeline-group-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+              <span>Extracurricular &amp; Community Leadership</span>
+            </h3>
+
+            <div class="timeline-track">
+              <!-- Item 4: AIEC -->
+              <div class="timeline-item">
+                <div class="timeline-marker">
+                  <div class="marker-dot"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-badge-row">
+                    <span class="timeline-badge community">Operations</span>
+                    <span class="timeline-date">Student Organization</span>
+                  </div>
+                  <h4 class="timeline-role">Logistics Operations</h4>
+                  <h5 class="timeline-org">AI Entrepreneurship Club (AIEC)</h5>
+                  <p class="timeline-desc">
+                    Supported the planning and operational execution of the "Dare to Achieve" technology event, which accommodated 200+ attendees.
+                  </p>
+                  <div class="timeline-meta-tags">
+                    <span>200+ Attendees</span>
+                    <span>Event Operations</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 5: GDG -->
+              <div class="timeline-item">
+                <div class="timeline-marker">
+                  <div class="marker-dot"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-badge-row">
+                    <span class="timeline-badge community">Community</span>
+                    <span class="timeline-date">Technical Network</span>
+                  </div>
+                  <h4 class="timeline-role">Community Manager</h4>
+                  <h5 class="timeline-org">Google Developer Groups (GDG)</h5>
+                  <p class="timeline-desc">
+                    Contributed to technical community management and coordinated more than three technical networking events.
+                  </p>
+                  <div class="timeline-meta-tags">
+                    <span>3+ Tech Events</span>
+                    <span>Developer Ecosystem</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 6: NGO -->
+              <div class="timeline-item">
+                <div class="timeline-marker">
+                  <div class="marker-dot"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-badge-row">
+                    <span class="timeline-badge community">Volunteering</span>
+                    <span class="timeline-date">Social Impact</span>
+                  </div>
+                  <h4 class="timeline-role">NGO Logistics Volunteer</h4>
+                  <h5 class="timeline-org">Soffaraa Kheir Omma</h5>
+                  <p class="timeline-desc">
+                    Supported field logistics and demographic data collection activities that assisted more than 50 families.
+                  </p>
+                  <div class="timeline-meta-tags">
+                    <span>50+ Families Assisted</span>
+                    <span>Demographic Data Collection</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="section services-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">APPLIED FREELANCE OFFERINGS</span>
+          <h2 class="section-title">Data &amp; Analytics <span class="gradient-text">Services</span></h2>
+          <p class="section-subtitle">Practical, high-quality data handling and analytical services tailored for business spreadsheet optimization, reporting, and structured preparation.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Excel Data Cleaning &amp; Preparation</h3>
+            <p class="service-description">
+              Organizing spreadsheets, improving data consistency, and preparing tabular datasets for analysis.
+            </p>
+            <ul class="service-features">
+              <li>Removal of duplicate entries and inconsistencies</li>
+              <li>Missing value imputation and outlier flags</li>
+              <li>Standardized column naming and uniform formatting</li>
+              <li>Schema structuring ready for SQL/BI ingestion</li>
+            </ul>
+            <div class="service-action">
+              <a href="#contact" class="service-btn" data-service="Excel Data Cleaning & Preparation">
+                <span>Request Service</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Excel Data Analysis &amp; Visualization</h3>
+            <p class="service-description">
+              Exploring datasets, summarizing results, and creating charts and reports using Microsoft Excel.
+            </p>
+            <ul class="service-features">
+              <li>Pivot tables and dynamic summary calculations</li>
+              <li>Interactive charts (bar, line, trend, and distribution)</li>
+              <li>Sales, customer, and regional pattern discovery</li>
+              <li>KPI summary boards for rapid stakeholder understanding</li>
+            </ul>
+            <div class="service-action">
+              <a href="#contact" class="service-btn" data-service="Excel Data Analysis & Visualization">
+                <span>Request Service</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Data Reporting Support</h3>
+            <p class="service-description">
+              Structuring analytical findings into readable summaries and business-oriented reports.
+            </p>
+            <ul class="service-features">
+              <li>Translating raw data metrics into executive takeaways</li>
+              <li>Clean layout design in Word and PowerPoint</li>
+              <li>Quantitative tables with clear visual indicators</li>
+              <li>Actionable analytical synthesis for decision makers</li>
+            </ul>
+            <div class="service-action">
+              <a href="#contact" class="service-btn" data-service="Data Reporting Support">
+                <span>Request Service</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
+                <path d="M12 2a10 10 0 0 1 10 10"></path>
+                <circle cx="12" cy="12" r="6"></circle>
+              </svg>
+            </div>
+            <h3 class="service-title">AI-Assisted Business Research</h3>
+            <p class="service-description">
+              Supporting research, brainstorming, and business planning using appropriate AI tools.
+            </p>
+            <ul class="service-features">
+              <li>Structured prompt workflows for market inquiry</li>
+              <li>Synthesizing competitor insights and industry trends</li>
+              <li>Drafting value propositions and business model canvases</li>
+              <li>Responsible and validated Generative AI tool leverage</li>
+            </ul>
+            <div class="service-action">
+              <a href="#contact" class="service-btn" data-service="AI-Assisted Business Research">
+                <span>Request Service</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAREER OBJECTIVE SECTION -->
+    <section id="objective" class="section objective-section">
+      <div class="container">
+        <div class="objective-card">
+          <div class="objective-header">
+            <span class="section-eyebrow">LONG-TERM ASPIRATION</span>
+            <h2 class="objective-heading">Professional Career Objective</h2>
+          </div>
+
+          <blockquote class="objective-quote">
+            &ldquo;My goal is to grow into a skilled Data Engineer and Data Science professional, building reliable data workflows and analytical solutions that transform raw information into meaningful insights. I aim to strengthen my technical foundations through practical projects, continuous learning, and collaborative work while contributing to solutions that create measurable value.&rdquo;
+          </blockquote>
+
+          <div class="objective-pillars-grid">
+            <div class="obj-pillar">
+              <div class="pillar-bullet"></div>
+              <h4>Reliable Data Workflows</h4>
+              <p>Designing robust pipelines with strict validation, schema control, and dependable transformation.</p>
+            </div>
+            <div class="obj-pillar">
+              <div class="pillar-bullet"></div>
+              <h4>Meaningful Insights</h4>
+              <p>Cutting through noise to highlight trends, performance drivers, and high-impact conclusions.</p>
+            </div>
+            <div class="obj-pillar">
+              <div class="pillar-bullet"></div>
+              <h4>Continuous Learning</h4>
+              <p>Embracing modern cloud data ecosystems, dbt engineering best practices, and algorithmic development.</p>
+            </div>
+            <div class="obj-pillar">
+              <div class="pillar-bullet"></div>
+              <h4>Practical Impact</h4>
+              <p>Delivering measurable business value through collaborative teamwork and practical problem-solving.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & TRAINING SECTION -->
+    <section id="certifications" class="section cert-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">VERIFIED CREDENTIALS</span>
+          <h2 class="section-title">Certifications &amp; <span class="gradient-text">Training</span></h2>
+          <p class="section-subtitle">Formal training programs validating technical, managerial, and entrepreneurial development.</p>
+        </div>
+
+        <div class="cert-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-meta">
+                <span class="cert-status current">Ongoing</span>
+              </div>
+              <h3 class="cert-title">Technical Training Program</h3>
+              <p class="cert-issuer">National Telecommunications Institute (NTI)</p>
+              <p class="cert-desc">Comprehensive curriculum spanning data analytics, quantitative methodologies, and practical data problem solving.</p>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-meta">
+                <span class="cert-status completed">December 2025</span>
+              </div>
+              <h3 class="cert-title">AI Tracks Training</h3>
+              <p class="cert-issuer">Ministry of Communications and Information Technology (MCIT)</p>
+              <p class="cert-desc">50+ hours of targeted training exploring applied artificial intelligence in finance, marketing, and business strategy.</p>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-meta">
+                <span class="cert-status completed">Completed</span>
+              </div>
+              <h3 class="cert-title">Project Management Training Program</h3>
+              <p class="cert-issuer">Professional Program</p>
+              <p class="cert-desc">Project scope planning, milestone tracking, stakeholder coordination, and agile workflow principles.</p>
+            </div>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-meta">
+                <span class="cert-status completed">Completed</span>
+              </div>
+              <h3 class="cert-title">Entrepreneurship Bootcamp Certificate</h3>
+              <p class="cert-issuer">Innovation Bootcamp</p>
+              <p class="cert-desc">Business model validation, pitch deck composition, lean startup experimentation, and market fit analysis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">GET IN TOUCH</span>
+          <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+          <p class="section-subtitle">Open for Data Engineering, Data Science, and Analytics internship opportunities, as well as freelance Excel analysis projects.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels Info -->
+          <div class="contact-info-col">
+            <div class="contact-info-card">
+              <h3 class="contact-info-title">Contact Information</h3>
+              <p class="contact-info-intro">
+                Feel free to reach out directly via email, phone, or connect on professional networks.
+              </p>
+
+              <ul class="contact-channels-list">
+                <!-- Email -->
+                <li class="channel-item">
+                  <div class="channel-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="channel-details">
+                    <span class="channel-label">Email Address</span>
+                    <a href="mailto:leqaawaleed26@gmail.com" class="channel-link">leqaawaleed26@gmail.com</a>
+                  </div>
+                </li>
+
+                <!-- Phone -->
+                <li class="channel-item">
+                  <div class="channel-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div class="channel-details">
+                    <span class="channel-label">Phone</span>
+                    <a href="tel:01280117171" class="channel-link">01280117171</a>
+                  </div>
+                </li>
+
+                <!-- Location -->
+                <li class="channel-item">
+                  <div class="channel-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div class="channel-details">
+                    <span class="channel-label">Location</span>
+                    <span class="channel-text">Quesna, Menoufia, Egypt</span>
+                  </div>
+                </li>
+
+                <!-- LinkedIn -->
+                <li class="channel-item">
+                  <div class="channel-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                  </div>
+                  <div class="channel-details">
+                    <span class="channel-label">LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/leqaa-waleed-253441392/" target="_blank" rel="noopener noreferrer" class="channel-link">
+                      in/leqaa-waleed-253441392
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="external-icon"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </a>
+                  </div>
+                </li>
+
+                <!-- GitHub -->
+                <li class="channel-item">
+                  <div class="channel-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </div>
+                  <div class="channel-details">
+                    <span class="channel-label">GitHub</span>
+                    <a href="https://github.com/leqaawaleed26-ux" target="_blank" rel="noopener noreferrer" class="channel-link">
+                      github.com/leqaawaleed26-ux
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="external-icon"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="static-site-note">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                <span>This static website uses a client-side mailto workflow. Submitting the form opens your preferred email client with your message pre-composed.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-col">
+            <div class="contact-form-card">
+              <h3 class="form-title">Send a Message</h3>
+              <p class="form-desc">Fill in the details below to generate an email dispatch directly to my inbox.</p>
+
+              <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="senderName" class="form-label">Your Name <span class="required" aria-hidden="true">*</span></label>
+                  <input type="text" id="senderName" name="name" class="form-input" placeholder="e.g. Sarah Ahmed" required autocomplete="name">
+                  <span class="form-error" id="nameError" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="senderEmail" class="form-label">Your Email <span class="required" aria-hidden="true">*</span></label>
+                  <input type="email" id="senderEmail" name="email" class="form-input" placeholder="e.g. sarah@example.com" required autocomplete="email">
+                  <span class="form-error" id="emailError" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="emailSubject" class="form-label">Subject <span class="required" aria-hidden="true">*</span></label>
+                  <input type="text" id="emailSubject" name="subject" class="form-input" placeholder="e.g. Internship Inquiry / Excel Analytics Project" required>
+                  <span class="form-error" id="subjectError" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="emailMessage" class="form-label">Message <span class="required" aria-hidden="true">*</span></label>
+                  <textarea id="emailMessage" name="message" class="form-textarea" rows="5" placeholder="Share project details, timeline, or discussion topics..." required></textarea>
+                  <span class="form-error" id="messageError" aria-live="polite"></span>
+                </div>
+
+                <button type="submit" id="submitBtn" class="btn btn-primary btn-submit">
+                  <span>Send via Email Client</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+
+                <div id="formStatus" class="form-status" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-name">Leqaa Waleed Elsayed Gebril</span>
+          <p class="footer-tagline">Data Engineer &amp; Data Science Student &bull; Transforming raw data into structured insights.</p>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/leqaa-waleed-253441392/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Leqaa Waleed LinkedIn Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="https://github.com/leqaawaleed26-ux" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Leqaa Waleed GitHub Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+          <a href="mailto:leqaawaleed26@gmail.com" class="social-icon-btn" aria-label="Send email to Leqaa Waleed">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="currentYear">2026</span> Leqaa Waleed Elsayed Gebril. All rights reserved.
+        </p>
+        <div class="footer-links">
+          <span class="footer-location">Menoufia, Egypt</span>
+          <span class="separator">&bull;</span>
+          <a href="#hero" class="back-to-top" id="backToTopBtn" aria-label="Scroll back to top">
+            <span>Back to Top</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="19" x2="12" y2="5"></line>
+              <polyline points="5 12 12 5 19 12"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
